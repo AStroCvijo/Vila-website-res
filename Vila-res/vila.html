@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vila</title>
+  <link rel="stylesheet" href="vila.css">
+</head>
+<body>
+
+  <!--navbar-->
+  <nav class="navbar">
+    <h1 class="logo">VILA</h1>
+    <ul class="nav-links">
+      <li><a href="#">Početna stranica</a></li>
+      <li><a href="#">O nama</a></li>
+      <li><a href="#">Cjenovnik</a></li>
+      <li class="ctn"><a href="#">Kontaktirajte nas</a></li>
+    </ul>
+    <img src="/images/menu-btn.png" alt="" class="menu-btn">
+  </nav>
+
+
+  <header>
+    <div class="header-content">
+      <h2>??????</h2>
+      <div class="line"></div>
+      <h1>SALON LJEPOTE</h1>
+      <a href="#" class="ctn">Saznaj više</a>
+    </div>
+  </header>
+
+  <!-- O nama -->
+  
+  <section class="events">
+    <div class="title">
+      <h1>O nama</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="/images/mm.png" alt="" class="eImg">
+        <h4 class="eTitle">??????</h4>
+        <p class="eText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus id officia nemo! Officia, possimus quis!</p>
+        <a href="#" class="ctn">Saznaj više</a>
+      </div>
+      <div class="col">
+        <img src="/images/lokacija.png" alt="" class="eImg">
+        <h4 class="eTitle">??????</h4>
+        <p class="eText">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut ratione repellendus nesciunt ea doloremque minus.</p>
+        <a href="#" class="ctn">Saznaj više</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const menuBtn = document.querySelector('.menu-btn')
+    const navlinks = document.querySelector('.nav-links')
+
+    menuBtn.addEventListener('click',()=>{
+      navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+</body>
+</html>
