@@ -272,6 +272,8 @@ header {
 
   /* O nama*/
 
+
+
   .row {
     flex-direction: column;
   }
@@ -350,9 +352,19 @@ li:hover {
   cursor: zoom-out;
 }
 
+.cjenovnik-content .list li {
+  transition: ease .3s;
+}
+
+
 .cjenovnik-content .list li:hover {
   cursor: default;
 }
+
+.cjenovnik-content .list h3 {
+  transition: ease .3s;
+}
+
 
 .cjenovnik-content .list ul li:hover{
   transform: scale(1.1);
@@ -363,5 +375,27 @@ li:hover {
   transform: scale(1.1);
   transition:ease .3s;
 }
+.body {
+  scroll-behavior: smooth;
+}
 
+html {
+  scroll-behavior: smooth;
+}
 
+.col {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.SEcol {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+.row:nth-child(0) {
+  transition-delay: 600ms;
+}
