@@ -9,7 +9,7 @@
 }
 
 .active{
-  color: #67C077;
+  color: #3c8047;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -76,7 +76,7 @@ header {
 .line {
   width: 150px;
   height: 4px;
-  background-color: #67C077;
+  background-color: #3c8047;
   margin: 10px auto;
   border-radius: 5px;
 }
@@ -89,7 +89,7 @@ header {
 
 .ctn {
   padding: 8px 15px;
-  background: #67C077;
+  background: #3c8047;
   border-radius: 30px;
   color: whitesmoke;
 }
@@ -113,7 +113,7 @@ header {
 .title {
   text-align: center;
   font-size: 4vmin;
-  color: #67C077;
+  color: #3c8047;
 }
 
 .row {
@@ -129,7 +129,7 @@ header {
 
 .eTitle {
   font-size: 3vmin;
-  color: #B4DBBB;
+  color: #3c8047;
   margin: 50px auto;
 }
 
@@ -145,7 +145,7 @@ header {
 }
 
 .eText {
-  color: #67C077;
+  color: #3c8047;
   padding: 0px 40px;
   text-align: center;
 }
@@ -170,7 +170,7 @@ header {
 .explore-content {
   width: 60%;
   padding: 50px auto;
-  color: #67C077;
+  color: #3c8047;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -184,7 +184,7 @@ header {
 
 
 .explore-content p {
-  color: #67C077;
+  color: #3c8047;
 }
 
 .explore-content .ctn {
@@ -217,7 +217,7 @@ header {
 
 .cjenovnik-content .list ul li p {
   margin-left: 10px;
-  color: #67C077;
+  color: #3c8047;
   background-color: whitesmoke;
   border-radius: 10px;
   font-weight: bold;
@@ -227,7 +227,7 @@ header {
   height: fit-content;
   margin-left: 10px;
   color: whitesmoke;
-  background-color:#67C077;
+  background-color:#3c8047;
   border-radius: 10px;
   width: 83%;
   margin-left: 0px;
@@ -360,12 +360,12 @@ img:hover {
 
 .ctn:hover {
   background: whitesmoke;
-  color: #67C077;
+  color: #3c8047;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.336);
 }
 
 li:hover {
-  color: #67C077;
+  color: #3c8047;
   cursor: zoom-out;
 }
 
